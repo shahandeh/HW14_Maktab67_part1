@@ -20,6 +20,6 @@ object NetworkManager {
         .client(client)
         .build()
 
-    val service = retrofit.create(FlickrApi::class.java)
+    val service: FlickrApi = retrofit.create(FlickrApi::class.java)
 
 }
